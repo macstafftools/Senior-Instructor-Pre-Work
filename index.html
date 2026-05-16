@@ -3,22 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MacSailing · Senior Instructor Pre-Work 2026</title>
+<title>MacSailing · Adult Programs — Lead Instructor Pre-Work</title>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 <style>
-:root {
-  --blue:#1B5FAA; --mid:#3A7FC1; --pale:#D6E8F7;
-  --dark:#0D3A6B; --deep:#07223F;
-  --off:#F5F8FC; --text:#1a2e3b; --muted:#5a7a96; --border:#D0DDED;
-  --accent:#F4A24D; --success:#2E9E6B; --danger:#C0392B; --warn:#E67E22;
-  --cyan:#0891B2; --r:10px;
-}
+:root{--blue:#0056A0;--mid:#3A7FC1;--pale:#D6E8F7;--dark:#0D3A6B;--deep:#07223F;--off:#F5F8FC;--text:#1a2e3b;--muted:#5a7a96;--border:#D0DDED;--accent:#F4A24D;--success:#2E9E6B;--danger:#C0392B;--warn:#E67E22;--purple:#6D28D9;--r:10px}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Lato',sans-serif;background:#ffffff;color:var(--text);min-height:100vh;overflow-x:hidden}
-
-#sidebar{position:fixed;top:0;left:0;width:268px;height:100vh;background:#ffffff;border-right:1px solid var(--border);display:flex;flex-direction:column;z-index:100;overflow-y:auto}
+body{font-family:'Lato',sans-serif;background:#fff;color:var(--text);min-height:100vh;overflow-x:hidden}
+#sidebar{position:fixed;top:0;left:0;width:268px;height:100vh;background:#fff;border-right:1px solid var(--border);display:flex;flex-direction:column;z-index:100;overflow-y:auto}
 .sb-logo{padding:22px 20px 16px;border-bottom:1px solid var(--border)}
-.sb-logo img{width:150px;opacity:1}
+.sb-logo img{width:150px}
 .sb-logo p{color:var(--muted);font-size:.64rem;margin-top:8px;text-transform:uppercase;letter-spacing:.15em;font-weight:700}
 .prog-wrap{padding:13px 20px;border-bottom:1px solid var(--border)}
 .prog-lbl{display:flex;justify-content:space-between;color:var(--muted);font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;margin-bottom:6px}
@@ -34,17 +27,14 @@ body{font-family:'Lato',sans-serif;background:#ffffff;color:var(--text);min-heig
 .ni.active .nd{background:var(--accent)}
 .ni.done .nd{background:var(--success)}
 .nl{font-size:.78rem;color:var(--muted);line-height:1.3;font-weight:400;transition:color .15s}
-
 #main{margin-left:268px;min-height:100vh;background:var(--off)}
 .sec{display:none}.sec.active{display:block}
-
 .hero{background:linear-gradient(140deg,var(--deep) 0%,var(--dark) 55%,var(--blue) 100%);min-height:300px;display:flex;align-items:flex-end;padding:44px 52px;position:relative;overflow:hidden}
 .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:65px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 65'%3E%3Cpath fill='%23F5F8FC' d='M0,32L80,37C160,42,320,52,480,49C640,46,800,35,960,31C1120,27,1280,33,1360,37L1440,41L1440,65L0,65Z'/%3E%3C/svg%3E") no-repeat bottom;background-size:cover}
 .hc{position:relative;z-index:1}
 .htag{display:inline-block;background:rgba(244,162,77,.18);border:1px solid rgba(244,162,77,.5);color:var(--accent);font-size:.62rem;text-transform:uppercase;letter-spacing:.18em;padding:4px 12px;border-radius:20px;margin-bottom:12px;font-weight:700}
 .hero h2{font-weight:900;color:white;font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.1;margin-bottom:9px;letter-spacing:-.02em}
 .hero p{color:rgba(255,255,255,.62);font-size:.93rem;max-width:480px;line-height:1.65}
-
 .cb{padding:40px 52px;max-width:860px}
 .card{background:white;border:1px solid var(--border);border-radius:var(--r);padding:22px 26px;margin-bottom:16px;transition:box-shadow .2s}
 .card:hover{box-shadow:0 2px 14px rgba(27,95,170,.08)}
@@ -58,11 +48,6 @@ h3.sub{font-weight:900;color:var(--blue);font-size:1.15rem;margin:24px 0 12px;le
 p.lead{color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:16px}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:16px}
 .g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:13px;margin-bottom:16px}
-
-.sc{background:linear-gradient(135deg,var(--blue),var(--mid));border-radius:var(--r);padding:20px;color:white;text-align:center}
-.sc .n{font-size:2rem;font-weight:900;color:var(--accent);line-height:1}
-.sc .l{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;opacity:.75;margin-top:4px;font-weight:700}
-
 .al{border-radius:var(--r);padding:13px 17px;margin-bottom:13px;display:flex;gap:11px;align-items:flex-start}
 .al-i{background:#EEF5FC;border-left:4px solid var(--mid)}
 .al-s{background:#EDFBF3;border-left:4px solid var(--success)}
@@ -71,58 +56,32 @@ p.lead{color:var(--muted);font-size:.9rem;line-height:1.7;margin-bottom:16px}
 .ai{font-size:1.05rem;flex-shrink:0;margin-top:1px}
 .at{font-size:.84rem;line-height:1.6;color:var(--text)}
 .at strong{display:block;margin-bottom:2px;font-weight:700}
-
 .tw{overflow-x:auto;margin-bottom:16px}
 table{width:100%;border-collapse:collapse;font-size:.82rem}
 th{background:var(--blue);color:white;padding:10px 13px;text-align:left;font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
 th:first-child{border-radius:6px 0 0 0}th:last-child{border-radius:0 6px 0 0}
 td{padding:9px 13px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top}
 tr:hover td{background:rgba(27,95,170,.03)}
-
 .jstep{display:flex;gap:14px;position:relative}
 .jstep:not(:last-child) .sline{position:absolute;left:16px;top:38px;width:2px;height:calc(100% - 4px);background:linear-gradient(var(--mid),rgba(58,127,193,.1))}
 .sdot{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--mid));display:flex;align-items:center;justify-content:center;color:white;font-weight:900;font-size:.78rem;flex-shrink:0;z-index:1}
 .scont{flex:1;background:white;border:1px solid var(--border);border-radius:var(--r);padding:14px 18px;margin-bottom:12px}
 .scont h4{color:var(--blue);font-weight:700;margin-bottom:4px;font-size:.9rem}
 .scont p{color:var(--muted);font-size:.82rem;line-height:1.6}
-
-/* Program cards */
-.prog{border-radius:var(--r);padding:18px 20px;margin-bottom:11px;border-left:4px solid}
-.prog.youth{background:#EEF5FC;border-color:var(--blue)}
-.prog.crew{background:#EDFBF3;border-color:var(--success)}
-.prog.tours{background:#FFF5EB;border-color:var(--warn)}
-.prog.events{background:#F3F0FD;border-color:#6D28D9}
-.prog.vbs{background:#E0F2FE;border-color:var(--cyan)}
-.prog.cruising{background:#E8F4F8;border-color:var(--cyan)}
-.prog h4{font-weight:900;margin-bottom:4px;font-size:.92rem}
-.prog.youth h4{color:var(--blue)}.prog.crew h4{color:#1A7048}.prog.tours h4{color:#A65100}
-.prog.events h4{color:#5B21B6}.prog.vbs h4{color:#0369A1}.prog.cruising h4{color:#0369A1}
-.prog p{font-size:.82rem;color:var(--muted);line-height:1.55}
-.ptags{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
-.ptag{font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700}
-.youth .ptag{background:rgba(27,95,170,.1);color:var(--blue)}
-.crew .ptag{background:rgba(46,158,107,.1);color:#1A7048}
-.tours .ptag{background:rgba(230,126,34,.12);color:#A65100}
-.events .ptag{background:rgba(109,40,217,.1);color:#5B21B6}
-.vbs .ptag,.cruising .ptag{background:rgba(8,145,178,.12);color:#0369A1}
-
-/* Mac Crew streams */
-.stream{border-radius:var(--r);padding:20px 22px;margin-bottom:11px;background:white;border:1px solid var(--border);position:relative;overflow:hidden}
-.stream::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%}
-.stream.learn::before{background:var(--blue)}
-.stream.race::before{background:var(--danger)}
-.stream.cruise::before{background:var(--success)}
-.stream h4{font-weight:900;font-size:.98rem;margin-bottom:3px}
-.stream.learn h4{color:var(--blue)}.stream.race h4{color:var(--danger)}.stream.cruise h4{color:#1A7048}
-.stream .pre{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;opacity:.55}
-.stream p{font-size:.84rem;color:var(--muted);line-height:1.6}
-.stags{display:flex;flex-wrap:wrap;gap:4px;margin-top:9px}
-.stag{font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700}
-.learn .stag{background:rgba(27,95,170,.1);color:var(--blue)}
-.race .stag{background:rgba(192,57,43,.1);color:var(--danger)}
-.cruise .stag{background:rgba(46,158,107,.1);color:#1A7048}
-
-/* Quiz */
+.persona{border-radius:var(--r);padding:18px 20px;margin-bottom:11px;border-left:4px solid}
+.persona.p1{background:#EEF5FC;border-color:var(--blue)}
+.persona.p2{background:#EDFBF3;border-color:var(--success)}
+.persona.p3{background:#FFF5EB;border-color:var(--warn)}
+.persona.p4{background:#F3F0FD;border-color:var(--purple)}
+.persona h4{font-weight:900;margin-bottom:4px;font-size:.95rem}
+.persona.p1 h4{color:var(--blue)}.persona.p2 h4{color:#1A7048}.persona.p3 h4{color:#A65100}.persona.p4 h4{color:var(--purple)}
+.persona p{font-size:.83rem;color:var(--muted);line-height:1.55}
+.pathway{background:linear-gradient(135deg,var(--deep),var(--dark));border-radius:14px;padding:24px 28px;margin-bottom:16px;color:white}
+.pathway h3{font-size:1rem;font-weight:900;color:var(--accent);margin-bottom:16px;text-transform:uppercase;letter-spacing:.08em}
+.prow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.pstep{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:5px 14px;font-size:.78rem;font-weight:700;color:white;white-space:nowrap}
+.parrow{color:var(--accent);font-size:.9rem;font-weight:900}
+.pstep.highlight{background:rgba(244,162,77,.25);border-color:var(--accent);color:var(--accent)}
 .qblock{background:linear-gradient(140deg,var(--deep) 0%,var(--dark) 100%);border-radius:13px;padding:30px 34px;margin:24px 0;color:white}
 .qblock h3{font-size:1.05rem;margin-bottom:6px;color:var(--pale);font-weight:900}
 .qq{font-size:.9rem;line-height:1.65;margin-bottom:16px;opacity:.88}
@@ -135,14 +94,19 @@ tr:hover td{background:rgba(27,95,170,.03)}
 .qfb.show{display:block}
 .qfb.correct{background:rgba(46,158,107,.18);color:#7DDBA8;border:1px solid rgba(46,158,107,.3)}
 .qfb.wrong{background:rgba(192,57,43,.18);color:#F4A097;border:1px solid rgba(192,57,43,.3)}
-
-/* Onsite callout */
-.onsite{background:linear-gradient(135deg,rgba(244,162,77,.1),rgba(244,162,77,.05));border:1px dashed rgba(244,162,77,.45);border-radius:var(--r);padding:14px 18px;margin:18px 0;display:flex;gap:11px;align-items:flex-start}
-.onsite p{font-size:.83rem;color:#7A4F00;line-height:1.6}
-
+.scenario{background:white;border:1px solid var(--border);border-radius:var(--r);margin-bottom:14px;overflow:hidden}
+.scenario-hdr{padding:14px 18px;cursor:pointer;display:flex;align-items:center;gap:12px;background:var(--off);transition:background .15s}
+.scenario-hdr:hover{background:var(--pale)}
+.scenario-hdr h4{font-size:.9rem;font-weight:700;color:var(--blue);flex:1}
+.scenario-hdr .tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:2px 8px;border-radius:20px;background:rgba(27,95,170,.1);color:var(--blue)}
+.scenario-body{display:none;padding:16px 18px;border-top:1px solid var(--border)}
+.scenario.open .scenario-body{display:block}
+.scenario-q{font-size:.86rem;color:var(--text);line-height:1.6;margin-bottom:12px;font-style:italic}
+.scenario-a{background:var(--off);border-radius:8px;padding:14px 16px}
+.scenario-a p{font-size:.84rem;color:var(--text);line-height:1.6}
+.chevron{color:var(--muted);font-size:.75rem;transition:transform .2s}
+.scenario.open .chevron{transform:rotate(180deg)}
 .bn{display:flex;justify-content:space-between;align-items:center;padding:22px 52px;border-top:1px solid var(--border);background:white;position:sticky;bottom:0}
-#hamburger{display:none;align-items:center;justify-content:center;position:fixed;top:14px;left:14px;z-index:201;width:40px;height:40px;background:white;border:1px solid var(--border);border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-#hamburger span{display:block;width:18px;height:2px;background:var(--blue);margin:3px auto;transition:all .2s;border-radius:2px}
 .btn{padding:10px 22px;border-radius:7px;font-family:'Lato',sans-serif;font-size:.84rem;font-weight:700;cursor:pointer;transition:all .2s;border:none;letter-spacing:.02em}
 .btn-p{background:var(--blue);color:white}
 .btn-p:hover{background:var(--dark);transform:translateY(-1px);box-shadow:0 4px 14px rgba(27,95,170,.3)}
@@ -150,19 +114,15 @@ tr:hover td{background:rgba(27,95,170,.03)}
 .btn-g:hover{background:var(--pale)}
 .btn:disabled{opacity:.3;cursor:not-allowed;transform:none!important}
 .sc-ctr{font-size:.76rem;color:var(--muted);font-weight:700}
-
-#welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:40px;background:#ffffff}
-.sbadge{background:rgba(27,95,170,.08);border:1px solid rgba(27,95,170,.25);color:var(--blue);font-size:.68rem;text-transform:uppercase;letter-spacing:.18em;padding:5px 16px;border-radius:20px;margin-bottom:16px;font-weight:700;display:inline-block}
-#welcome h1{font-weight:900;color:var(--blue);font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin-bottom:10px;letter-spacing:-.02em}
+#welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:40px;background:#fff}
+#welcome img{width:200px;margin-bottom:24px}
+.sbadge{background:rgba(0,86,160,.08);border:1px solid rgba(0,86,160,.2);color:var(--blue);font-size:.68rem;text-transform:uppercase;letter-spacing:.18em;padding:5px 16px;border-radius:20px;margin-bottom:16px;font-weight:700;display:inline-block}
+#welcome h1{font-weight:900;color:var(--blue);font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin-bottom:10px;letter-spacing:-.02em}
 #welcome h1 span{color:var(--accent)}
 #welcome .sh{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.12em;font-weight:700;margin-bottom:8px}
 #welcome p{color:var(--muted);font-size:.97rem;max-width:450px;line-height:1.7;margin-bottom:22px}
 .wmods{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;max-width:490px;margin-bottom:28px}
 .wmod{background:var(--off);border:1px solid var(--border);color:var(--muted);font-size:.73rem;padding:4px 12px;border-radius:20px;font-weight:700}
-.pwnote{background:rgba(27,95,170,.05);border:1px solid rgba(27,95,170,.15);border-radius:var(--r);padding:13px 18px;max-width:450px;margin-bottom:26px}
-.pwnote p{color:var(--text);font-size:.8rem;line-height:1.6}
-.pwnote strong{color:var(--blue)}
-
 .done-screen{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:linear-gradient(160deg,#EEF5FC,white);padding:60px}
 .done-badge{width:88px;height:88px;background:linear-gradient(135deg,var(--blue),var(--mid));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2.1rem;margin-bottom:22px;box-shadow:0 6px 28px rgba(27,95,170,.28)}
 .done-screen h2{font-weight:900;color:var(--blue);font-size:1.9rem;margin-bottom:10px}
@@ -172,52 +132,54 @@ tr:hover td{background:rgba(27,95,170,.03)}
 .next-box ul{list-style:none}
 .next-box ul li{font-size:.84rem;color:var(--text);padding:4px 0 4px 15px;position:relative}
 .next-box ul li::before{content:'→';position:absolute;left:0;color:var(--mid);font-weight:700}
-
+#hamburger{display:none;align-items:center;justify-content:center;position:fixed;top:14px;left:14px;z-index:201;width:40px;height:40px;background:white;border:1px solid var(--border);border-radius:8px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+#hamburger span{display:block;width:18px;height:2px;background:var(--blue);margin:3px auto;border-radius:2px}
+#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199}
 @media(max-width:768px){
   #sidebar{transform:translateX(-100%);transition:transform .3s ease;display:flex!important;z-index:200;box-shadow:4px 0 20px rgba(0,0,0,.15)}
   #sidebar.open{transform:translateX(0)}
   #main{margin-left:0}
-  .hero{padding:26px 20px 40px}
-  .cb{padding:22px 18px}
-  .g2,.g3{grid-template-columns:1fr}
-  .bn{padding:14px 18px}
-  #overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:199}
+  .hero{padding:26px 20px 40px}.cb{padding:22px 18px}
+  .g2,.g3{grid-template-columns:1fr}.bn{padding:14px 18px}
   #overlay.show{display:block}
   #hamburger{display:flex}
 }
-@media(min-width:769px){
-  #hamburger{display:none}
-  #overlay{display:none!important}
-}
+@media(min-width:769px){#hamburger{display:none}#overlay{display:none!important}}
 </style>
 </head>
 <body>
 
-<!-- WELCOME -->
 <div id="welcome">
   <img src="data:image/png;base64,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" alt="MacSailing">
-  <div class="sbadge">2026 Season</div>
-  <div class="sh">Senior Instructor</div>
-  <h1>Pre-Work<br><span>Onboarding</span></h1>
-  <div class="pwnote"><p><strong>Complete before your orientation day.</strong> This takes about 45 minutes. Your in-person session picks up where this leaves off — so the more you put into this, the better your orientation day will be.</p></div>
+  <div class="sbadge">2026 Season · Adult Programs</div>
+  <div class="sh">Lead Instructor</div>
+  <h1>Adult Programs<br><span>Pre-Work</span></h1>
+  <p>You've completed the general onboarding. This module covers everything specific to leading adult programs at MacSailing.</p>
   <div class="wmods">
-    <span class="wmod">🏢 Who We Are</span>
-    <span class="wmod">⛵ 2026 Programs</span>
-    <span class="wmod">👥 Mac Crew</span>
-    <span class="wmod">🚢 Vancouver by Sea</span>
-    <span class="wmod">🗺️ Customer Journey</span>
-    <span class="wmod">📋 Your Role</span>
-    <span class="wmod">📅 Scheduling</span>
-    <span class="wmod">✅ Knowledge Checks</span>
+    <span class="wmod">🎓 The Adult Journey</span>
+    <span class="wmod">⛵ CANSail Levels</span>
+    <span class="wmod">👥 Teaching Adults</span>
+    <span class="wmod">🗺️ Program Pathways</span>
+    <span class="wmod">📋 Running the Class</span>
+    <span class="wmod">🌊 Mac Crew & Handoff</span>
+    <span class="wmod">🌬️ Wind & Conditions</span>
+    <span class="wmod">🎭 Scenarios</span>
   </div>
-  <button class="btn btn-p" style="font-size:.98rem;padding:13px 34px;" onclick="start()">Begin Pre-Work →</button>
+  <div style="background:#EEF5FC;border:1px solid #BFDBFE;border-radius:12px;padding:20px 28px;max-width:460px;margin-bottom:24px;text-align:center;">
+    <p style="font-size:.88rem;font-weight:700;color:#0056A0;margin-bottom:6px;">📋 Before you begin</p>
+    <p style="font-size:.85rem;color:#5a7a96;line-height:1.6;margin-bottom:14px;">Open your pre-work worksheet now and keep it handy as you go through each module. You'll submit it when you're done.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5co7HhJVJEEoH5lXGUEk0gw6FzMYOE9SDfktGfxJKjTgbmA/viewform?usp=sharing&ouid=103094503477684416902" target="_blank" class="btn btn-p" style="text-decoration:none;display:inline-block;">Open Worksheet ↗</a>
+  </div>
+  <button class="btn btn-p" style="font-size:.98rem;padding:13px 34px;" onclick="start()">Begin →</button>
 </div>
 
-<!-- SIDEBAR -->
+<div id="overlay" onclick="closeSidebar()"></div>
+<button id="hamburger" onclick="toggleSidebar()"><span></span><span></span><span></span></button>
+
 <div id="sidebar" style="display:none;">
   <div class="sb-logo">
     <img src="data:image/png;base64,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" alt="MacSailing">
-    <p>Senior Instructor · Pre-Work 2026</p>
+    <p>Adult Programs · Lead Instructor · 2026</p>
   </div>
   <div class="prog-wrap">
     <div class="prog-lbl"><span>Progress</span><span id="pct">0%</span></div>
@@ -226,598 +188,422 @@ tr:hover td{background:rgba(27,95,170,.03)}
   <div class="nav-sec" id="navlist"></div>
 </div>
 
-<!-- MAIN -->
-<div id="overlay" onclick="closeSidebar()"></div>
-<button id="hamburger" onclick="toggleSidebar()" aria-label="Menu">
-  <span></span><span></span><span></span>
-</button>
 <div id="main" style="display:none;">
 
-<!-- S0: Welcome & What's New -->
+<!-- S0: The Adult Journey -->
 <div class="sec active" data-s="0">
   <div class="hero">
     <div class="hc">
       <div class="htag">Module 1</div>
-      <h2>Welcome to the 2026 Season</h2>
-      <p>You're part of a team that brings adventure, learning, and community to thousands of people on the water each season.</p>
+      <h2>The Adult Journey</h2>
+      <p>Adult students are invested, aware, and paying. Understanding their journey changes how you show up from day one.</p>
     </div>
   </div>
   <div class="cb">
-    <p class="lead">MacSailing is growing — new programs, a stronger community focus, and more ways for people to connect with the water. As a Senior Instructor, you're at the centre of all of it.</p>
-    <h3 class="sub">What's New in 2026</h3>
-    <div class="card"><ul class="st">
-      <li><strong>Mac Crew expands to 3 streams</strong> — Learn, Race, and Cruise pathways for adult graduates</li>
-      <li><strong>Vancouver by Sea launches</strong> — tours aboard a 40ft sailboat. A premium guest experience and a new flagship offering</li>
-      <li><strong>Youth Cruising added</strong> — Junior Cruiser and Basic Cruising Standard for ages 12–15, multi-day format</li>
-      <li><strong>Community is the core focus</strong> — more social events, more connections, more reasons for people to stay involved year-round</li>
-      <li><strong>Staff App fully live</strong> — SOPs, logs, schedules, and tools in one place</li>
-      <li><strong>New partnerships</strong> — Ocean Wise, Parks Canada &amp; Mustang Survival. You're a Community Education Ambassador</li>
-    </ul></div>
-    <h3 class="sub">Your Goals This Season</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">🛡️</div>Safety &amp; Leadership</div><ul class="st"><li>Be safe on the water and on land at all times</li><li>Set the tone for your team every single day</li><li>Don't be afraid to ask for help</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🌊</div>Community &amp; Culture</div><ul class="st"><li>Help build something people want to come back to</li><li>Make students, guests, and junior staff feel they belong</li><li>Have fun — this is a great place to work</li></ul></div>
-    </div>
-    <div class="onsite"><span>📋</span><p><strong>Heads up:</strong> Safety scenarios, leadership practice, and team introductions are covered at your in-person orientation — not here. Focus on absorbing the foundation in this pre-work.</p></div>
-  </div>
-</div>
+    <p class="lead">Adult customers are excited and invested in their journey. They expect professionalism, organization, and added value. Compared to youth programs, adult students are much more attuned to how you behave, how you teach, and how sessions are organized.</p>
 
-<!-- S1: Philosophy -->
-<div class="sec" data-s="1">
-  <div class="hero">
-    <div class="hc">
-      <div class="htag">Module 2</div>
-      <h2>Who We Are</h2>
-      <p>Our philosophy shapes every decision — on the water, on the beach, and with every customer interaction.</p>
-    </div>
-  </div>
-  <div class="cb">
-    <div class="al al-i"><div class="ai">⚓</div><div class="at"><strong>Mission</strong>To inspire confidence, community, and environmental awareness through exceptional water-based experiences.</div></div>
-    <h3 class="sub">Core Values</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">🛡️</div>Safety First</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Every decision starts here. No experience is worth compromising the wellbeing of a student, guest, or staff member.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🎓</div>Thoughtful Teaching</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Prepared lessons, patience, specific feedback, and leaving every person with a sense of accomplishment.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🤝</div>Inclusivity &amp; Respect</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Everyone belongs on the water. Welcoming, age-appropriate, and inclusive — always.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🌍</div>Community</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">We're building something beyond a sailing school. Connection, belonging, and a community that lasts past the season.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Professionalism</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">On time, in uniform, logs complete, and modelling the behaviour you want junior staff to follow.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🌊</div>Exciting Experiences</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">We're not just teaching skills — we're creating memories people talk about for years.</p></div>
-    </div>
+    <div class="al al-i"><div class="ai">🎯</div><div class="at"><strong>Your primary goals with every adult:</strong> Safety, enjoyment, and retention. Everything you do should serve one of these three things.</div></div>
+
+    <h3 class="sub">The 6 Stages</h3>
+
+    <div class="jstep"><div class="sdot">1</div><div class="sline"></div><div class="scont"><h4>📣 Discovery & Registration</h4><p>Customer finds MacSailing through a friend or our website. They arrive expecting professionalism, structured learning, safety, and a respectful and compassionate environment. Their first impression starts before they walk through the door.</p></div></div>
+
+    <div class="jstep"><div class="sdot">2</div><div class="sline"></div><div class="scont"><h4>👋 Day 1 — Set the Tone</h4><p>Day 1 sets the tone for every session that follows. Boats are already rigged. Be in the classroom 30 minutes early — your first impression starts when they walk in, not when the lesson starts. Play music, start conversations, make it lively. Facilitate a warm, friendly environment. Acknowledge nerves. Walk them through the facility and explain the course progression so they understand the roadmap to their goals.</p></div></div>
+
+    <div class="jstep"><div class="sdot">3</div><div class="sline"></div><div class="scont"><h4>📊 Mid-Course Check-In</h4><p>Honest but gentle conversations about progress — what's working, what's not. Understand each student's goals, set expectations, and help them achieve what they came for. Make individuals feel seen and supported while still tracking CANSail skill progression.</p></div></div>
+
+    <div class="jstep"><div class="sdot">4</div><div class="sline"></div><div class="scont"><h4>🏆 Completion & Handoff</h4><p>Warm, positive wrap-up and a personal handoff to the right Mac Crew stream. This conversation is the most important retention action you take. Also highlight next steps — next course, rentals, private lessons. Everyone gets a one-on-one evaluation before the course ends.</p></div></div>
+
+    <div class="jstep"><div class="sdot">5</div><div class="sline"></div><div class="scont"><h4>🌊 Mac Crew Member</h4><p>They're now part of the community. They participate in social events, get on-water sailing time, and refer friends and family. Your handoff conversation determines whether this happens or they disappear after the final session.</p></div></div>
+
+    <div class="jstep"><div class="sdot">6</div><div class="sline"></div><div class="scont"><h4>🚀 Next Pathways</h4><p>Mac Crew Learn, Race, or Cruise. Private lessons. Advanced courses. Rentals. Vancouver by Sea. Know all the options so you can match every student to the right next step.</p></div></div>
+
     <div class="qblock">
       <h3>🧠 Quick Check</h3>
-      <p class="qq">A student is frustrated and says they're "not a natural sailor." Which value should guide your response?</p>
+      <p class="qq">A student finishes CANSail 1 and says "what do I do next?" What's your response?</p>
       <div class="qopts">
-        <button class="qo" onclick="ans(this,'wrong','q1')">Safety First — confirm their PFD is fitted correctly before continuing</button>
-        <button class="qo" onclick="ans(this,'correct','q1')">Thoughtful Teaching — reassure them, give specific feedback, help them leave with a win</button>
-        <button class="qo" onclick="ans(this,'wrong','q1')">Professionalism — keep the session moving so you don't fall behind</button>
+        <button class="qo" onclick="ans(this,'wrong','q1')">Tell them to check the MacSailing website for upcoming courses</button>
+        <button class="qo" onclick="ans(this,'correct','q1')">Give them a warm personal handoff to Mac Crew: Learn — explain what it is, why it's right for them, and make them feel excited about it</button>
+        <button class="qo" onclick="ans(this,'wrong','q1')">Let the office handle it — they'll receive an email with next steps</button>
       </div>
       <div class="qfb" id="q1-fb"></div>
     </div>
   </div>
 </div>
 
-<!-- S2: Programs -->
+<!-- S1: CANSail Levels & Fleet -->
+<div class="sec" data-s="1">
+  <div class="hero">
+    <div class="hc">
+      <div class="htag">Module 2</div>
+      <h2>CANSail Levels & Fleet</h2>
+      <p>Know exactly what each level covers and which boats students sail — so you can teach with confidence and advise accurately.</p>
+    </div>
+  </div>
+  <div class="cb">
+    <h3 class="sub">The Levels</h3>
+
+    <div class="card">
+      <div class="ctitle"><div class="cicon">1</div>CANSail 1</div>
+      <p style="font-size:.86rem;color:var(--muted);line-height:1.6;margin-bottom:10px">Goal: get students comfortable in the boat and able to sail to any point on the water — maybe not efficiently, but they can get there.</p>
+      <ul class="st">
+        <li>Sailing to any point of sail</li>
+        <li>Righting a capsized boat</li>
+        <li>Basic knots and right of way</li>
+        <li>Completion: can rent a <strong>Zest</strong> in light/moderate winds</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="ctitle"><div class="cicon">2</div>CANSail 2</div>
+      <p style="font-size:.86rem;color:var(--muted);line-height:1.6;margin-bottom:10px">Goal: sail efficiently to any point. More focus on proper sail trim, boat speed, and close-hauled tacks.</p>
+      <ul class="st">
+        <li>Proper sail trim and boat speed</li>
+        <li>Close-hauled to close-hauled tacks</li>
+        <li>Completion: can rent a <strong>420</strong> in moderate winds</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="ctitle"><div class="cicon">3</div>CANSail 3</div>
+      <p style="font-size:.86rem;color:var(--muted);line-height:1.6;margin-bottom:10px">Big step up from CANSail 2. Advanced boat handling and introduction to racing.</p>
+      <ul class="st">
+        <li>Boat speed through sail control adjustments</li>
+        <li>Advanced maneuvers — steering with heel, backwards sailing</li>
+        <li>Introduction to racing skills</li>
+      </ul>
+    </div>
+
+    <h3 class="sub">The Fleet — Adult Programs</h3>
+    <div class="tw"><table>
+      <tr><th>Boat</th><th>Level</th><th>Notes</th></tr>
+      <tr><td><strong>Zest</strong></td><td>CANSail 1 primary</td><td>Main teaching boat for beginners. Stable, forgiving, good for learning fundamentals</td></tr>
+      <tr><td><strong>420</strong></td><td>CANSail 2 primary</td><td>Two-person boat, more performance. Skipper and crew roles</td></tr>
+      <tr><td><strong>Laser</strong></td><td>Advanced / CANSail 3</td><td>Single-handed, higher performance. More physical demands</td></tr>
+      <tr><td><strong>Hobie Getaway</strong></td><td>Tours / Advanced</td><td>Catamaran. Different feel — bigger, heavier boats take longer to respond</td></tr>
+    </table></div>
+
+    <div class="al al-i"><div class="ai">⚓</div><div class="at"><strong>Seamanship note:</strong> Bigger, heavier boats take longer to adjust to movements compared to lighter Zests and 420s. When advising students moving up, set this expectation early.</div></div>
+  </div>
+</div>
+
+<!-- S2: Teaching Adults -->
 <div class="sec" data-s="2">
   <div class="hero">
     <div class="hc">
       <div class="htag">Module 3</div>
-      <h2>2026 Programs &amp; Product Map</h2>
-      <p>Know every stream we run — so you can deliver confidently and connect people to the right experience.</p>
+      <h2>Teaching Adults</h2>
+      <p>Adults learn differently. They're paying, they're aware, and they'll notice if you're not fully present.</p>
     </div>
   </div>
   <div class="cb">
-    <p class="lead">MacSailing now runs six distinct program streams. 2026 brings youth cruising and a premium sailing tour brand to the lineup.</p>
+    <p class="lead">You teach the same material as youth programs — but the style needs to change completely. Adults are paying for their own courses and they are more attuned to instructor behaviour than any other group you'll teach.</p>
 
-    <div class="prog youth"><h4>⛵ Youth Summer Camps &nbsp;<a href="https://www.macsailing.com/summer-camps" target="_blank" style="font-size:.72rem;font-weight:700;color:var(--blue);text-decoration:none;">View page ↗</a></h4><p>CANSail Youth, Beach Kids, Sail Optis, Sail Escapes, Aqua Adventures. Ages 6–15. Full-day format (8:30 AM – 4:30 PM) with rotations. Focus: energy, care, group safety, and fun.</p><div class="ptags"><span class="ptag">Ages 6–15</span><span class="ptag">Full Day</span><span class="ptag">CANSail Certified</span><span class="ptag">Beach Kids</span><span class="ptag">Aqua Adventures</span></div></div>
-
-    <div class="prog cruising"><h4>⛵ Youth Cruising — NEW 2026</h4><p>Junior Cruiser and Basic Cruising Standard programs for ages 12–15. Multi-day or week-long format. Older youth ready for the next challenge — sailing beyond the buoys and building independence on the water.</p><div class="ptags"><span class="ptag">Ages 12–15</span><span class="ptag">Multi-Day / Week</span><span class="ptag">Junior Cruiser</span><span class="ptag">Basic Cruising Standard</span><span class="ptag">NEW 2026</span></div></div>
-
-    <div class="prog crew"><h4>🌊 Mac Crew — Adult Community &nbsp;<a href="https://www.macsailing.com/mac-crew" target="_blank" style="font-size:.72rem;font-weight:700;color:#1A7048;text-decoration:none;">View page ↗</a></h4><p>Everyone who completes a CANSail course is automatically part of Mac Crew. Three streams based on where they are in their sailing journey. Social events, skill-building, a growing community of adult sailors.</p><div class="ptags"><span class="ptag">Ages 18+</span><span class="ptag">3 Streams</span><span class="ptag">Community Focus</span><span class="ptag">Social Events</span><span class="ptag">Year-Round</span></div></div>
-
-    <div class="prog vbs"><h4>🚢 Vancouver by Sea — NEW 2026 &nbsp;<a href="https://www.vancouverbysea.com/" target="_blank" style="font-size:.72rem;font-weight:700;color:#0369A1;text-decoration:none;">View site ↗</a></h4><p>Tours aboard a 40ft sailboat. Sunset cruises, custom experiences, premium guest encounters. The flagship of MacSailing's tour offering — storytelling, hospitality, and seamanship at the highest level.</p><div class="ptags"><span class="ptag">All Ages</span><span class="ptag">2–4 hrs</span><span class="ptag">40ft Sailboat</span><span class="ptag">Premium Experience</span><span class="ptag">NEW 2026</span></div></div>
-
-    <div class="prog vbs" style="background:#E0F2FE;border-left:4px solid #0891B2;"><h4 style="color:#0369A1;">🚢 Vancouver by Sea <a href="https://www.vancouverbysea.com/" target="_blank" style="font-size:.72rem;font-weight:700;color:#0369A1;text-decoration:none;">View site ↗</a></h4><p style="font-size:.83rem;color:var(--muted);line-height:1.6;">Premium sailing tours aboard a 40ft sailboat. Sunset cruises, custom experiences, and flagship guest encounters. Storytelling, hospitality, and seamanship at the highest level. Treat the boat with the care and attention it deserves at all times.</p><div class="ptags"><span class="ptag" style="background:rgba(8,145,178,.12);color:#0369A1;">All Ages</span><span class="ptag" style="background:rgba(8,145,178,.12);color:#0369A1;">2–4 hrs</span><span class="ptag" style="background:rgba(8,145,178,.12);color:#0369A1;">40ft Sailboat</span><span class="ptag" style="background:rgba(8,145,178,.12);color:#0369A1;">Premium Experience</span></div></div>
-
-    <div class="prog tours"><h4>🌅 Tours &amp; Rentals</h4><p>Canoe Expeditions, Hobie Getaway trips, Sunset Cruises, and Boat Rentals. Mix of instruction and guest experience. Storytelling and hospitality matter as much as technical skill. Rentals are available to CANSail graduates — Zest for CS1, 420 for CS2.</p><div class="ptags"><span class="ptag">All Ages</span><span class="ptag">1.5–3 hrs</span><span class="ptag">Canoe Expeditions</span><span class="ptag">Hobie Getaway</span><span class="ptag">Rentals</span></div></div>
-
-    <div class="prog events"><h4>🏢 Group Events</h4><p>School visits, corporate groups, custom bookings. Often first-time sailors with limited time. Maximum fun, clear safety, strong energy.</p><div class="ptags"><span class="ptag">Varies</span><span class="ptag">1–3 hrs</span><span class="ptag">Schools</span><span class="ptag">Corporate</span></div></div>
-
-    <div class="prog" style="background:#F0FDF4;border-left:4px solid #15803D;"><h4 style="color:#15803D;">🌿 Marine Eco Education</h4><p style="font-size:.83rem;color:var(--muted);line-height:1.6;">A naturalist and environmental education program delivered alongside sailing camps. Covers local marine ecosystems, ocean stewardship, species identification, and hands-on beach science. Often delivered during land rotations by instructors comfortable with the content — but all Senior Instructors should be prepared to cover the basics.</p><div class="ptags"><span class="ptag" style="background:rgba(21,128,61,.1);color:#15803D;">Ages 6–15</span><span class="ptag" style="background:rgba(21,128,61,.1);color:#15803D;">Land Rotations</span><span class="ptag" style="background:rgba(21,128,61,.1);color:#15803D;">Ocean Stewardship</span><span class="ptag" style="background:rgba(21,128,61,.1);color:#15803D;">Species ID</span><span class="ptag" style="background:rgba(21,128,61,.1);color:#15803D;">Beach Science</span></div>
-    <div style="background:rgba(21,128,61,.08);border-radius:8px;padding:12px 14px;margin-top:10px;font-size:.82rem;color:#15803D;line-height:1.6;"><strong>If you're asked to cover Marine Eco:</strong> The program packs in the Staff Hub have full lesson guides. Key topics: food webs, local fish and bird species, tidal zones, ocean plastics, and Leave No Trace principles. You don't need to be a marine biologist — use the materials, keep it interactive, and make it fun. Students love the hands-on elements.</div></div>
-
-    <h3 class="sub">Mac Crew — The 3 Streams</h3>
-    <p class="lead">Mac Crew is more than a loyalty program — it's the community layer that keeps adult sailors connected to MacSailing year-round. Know these streams so you can talk about them confidently with graduates.</p>
-
-    <div class="stream learn">
-      <h4>Mac Crew: Learn</h4>
-      <div class="pre">For CANSail 1 Graduates</div>
-      <p>Skill-building sessions, coached sails, and social events designed for new sailors finding their feet. A supportive, low-pressure environment to keep the momentum going after CANSail 1. Community is central — these sailors are just starting their journey and need to feel connected.</p>
-      <div class="stags"><span class="stag">CANSail 1 Grads</span><span class="stag">Coached Sails</span><span class="stag">Social Events</span><span class="stag">Beginner-Friendly</span></div>
+    <h3 class="sub">What Changes</h3>
+    <div class="g2">
+      <div class="card"><div class="ctitle"><div class="cicon">💬</div>Explain the Why</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Adults need to understand why before they can do it. Connect ideas to something from their daily lives. "We look before we tack just like you shoulder check before turning when driving."</p></div>
+      <div class="card"><div class="ctitle"><div class="cicon">🎯</div>Constant Feedback</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">They will notice if you're passive — especially on water. Be active, specific, and present at all times. Silence reads as disengagement to adult learners.</p></div>
+      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Structure Matters</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Structure, organization, and debriefs are non-negotiable. Less games, more explanations. Adults want to know the plan and understand the progression.</p></div>
+      <div class="card"><div class="ctitle"><div class="cicon">🤝</div>Give Responsibility</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">From day 2 onward, have students rig when they arrive. Give them ownership of their learning — they appreciate being trusted and treated as capable adults.</p></div>
+      <div class="card"><div class="ctitle"><div class="cicon">💪</div>Be Confident</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Highlight your experience during introductions. Adults are trusting you with their time and money — confidence and professionalism reassures them they're in the right hands.</p></div>
+      <div class="card"><div class="ctitle"><div class="cicon">❤️</div>Be Patient</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Everyone learns at their own pace. Remind students of this often — it takes the pressure off and creates a psychologically safe environment for trying new things.</p></div>
     </div>
 
-    <div class="stream race">
-      <h4>Mac Crew: Race</h4>
-      <div class="pre">For CANSail 2 Graduates</div>
-      <p>Intro to racing, tactics, mark roundings, and fleet sailing. Competitive but inclusive — about the experience as much as the results. Social racing nights, crew matching for those without a boat, and a tight community of sailors who want to push their skills.</p>
-      <div class="stags"><span class="stag">CANSail 2 Grads</span><span class="stag">Racing Tactics</span><span class="stag">Fleet Sailing</span><span class="stag">Racing Nights</span></div>
-    </div>
-
-    <div class="stream cruise">
-      <h4>Mac Crew: Cruise</h4>
-      <div class="pre">For Basic Cruising Graduates</div>
-      <p>Keelboat passages and coastal cruising. For sailors ready to go further — day sails and longer coastal passages. A more adventurous community with shared passion for exploration and seamanship.</p>
-      <div class="stags"><span class="stag">Basic Cruising Grads</span><span class="stag">Keelboat</span><span class="stag">Coastal Passages</span><span class="stag">Offshore Skills</span></div>
-    </div>
-
-    <div class="al al-s"><div class="ai">🌊</div><div class="at"><strong>Your role with Mac Crew:</strong> When you complete a course with adult graduates, connect them to the right stream. A warm handoff — "You should check out Mac Crew: Learn, here's what it is" — is one of the most valuable things you can do.</div></div>
-
-    <h3 class="sub">What You Do at Mac Crew Sessions</h3>
-    <div class="g3">
-      <div class="card"><div class="ctitle"><div class="cicon">📚</div>At Learn Sessions</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Facilitated coached sails — structured but relaxed. Focus on confidence and connection. Keep it social, low-pressure, and encouraging. These sailors are still finding their feet. Help them feel like they belong.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🏆</div>At Race Sessions</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Run structured racing drills — mark roundings, starts, tactics, fleet positioning. Keep it competitive but inclusive. Debrief after every race. These sailors want to push their skills — give them specific, honest feedback.</p></div>
-      <div class="card"><div class="ctitle"><div class="cicon">⚓</div>At Cruise Sessions</div><p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Lead passage planning and coastal sailing. Cover weather assessment, tides, navigation basics, and seamanship. These sailors are building toward independence on the water — coach them to think, not just follow instructions.</p></div>
-    </div>
-
-    <div class="al al-i"><div class="ai">📄</div><div class="at"><strong>Program Pathway Map</strong> — see how all programs connect and how students progress through MacSailing.<br>
-    <a href="https://www.macsailing.com/uploads/b/d03c9df0-2263-11ee-a003-f3126df1ef6d/MacSailing%20Program%20Pathway.pdf" target="_blank" style="color:var(--blue);font-weight:700;text-decoration:none;">Download Program Pathway PDF ↗</a></div></div>
+    <h3 class="sub">The 4 Student Profiles</h3>
+    <div class="persona p1"><h4>⚡ The Athlete</h4><p>Natural sailor, quick to pick up skills, good feel for the boat and balance. Teach skills from the level up to keep them challenged. Give them advanced techniques to work on while others are catching up.</p></div>
+    <div class="persona p2"><h4>⚓ The Pre-Retiree</h4><p>Big sailing aspirations — interested in cruising, wants a bigger boat someday. Here to learn the fundamentals. Ensure a strong understanding of the basics and connect their learning to their long-term goals.</p></div>
+    <div class="persona p3"><h4>🎉 The Social Boaterfly</h4><p>Looking for something fun, often signs up with a friend. Not necessarily athletic but interested in trying new things. Encourage switching partners to meet more people and keep the atmosphere fun and social.</p></div>
+    <div class="persona p4"><h4>🚢 The Cruising Dreamer</h4><p>Interested in cruising and bigger boats. Wants to understand seamanship, not just sailing. Talk about weather, wind, tides, and planning. Connect CANSail skills to their bigger aspirations.</p></div>
 
     <div class="qblock">
       <h3>🧠 Quick Check</h3>
-      <p class="qq">An adult student just finished CANSail 2 and asks what's next for them at MacSailing. Which Mac Crew stream do you point them to?</p>
+      <p class="qq">Your class has a mix — one student picks everything up immediately, two are struggling with tacking. How do you handle it?</p>
       <div class="qopts">
-        <button class="qo" onclick="ans(this,'wrong','q2')">Mac Crew: Learn — they're still building confidence</button>
-        <button class="qo" onclick="ans(this,'correct','q2')">Mac Crew: Race — it's designed for CANSail 2 graduates</button>
-        <button class="qo" onclick="ans(this,'wrong','q2')">Mac Crew: Cruise — keelboat is the natural next step</button>
+        <button class="qo" onclick="ans(this,'wrong','q2')">Focus entirely on the struggling students and let the advanced one sail independently</button>
+        <button class="qo" onclick="ans(this,'correct','q2')">Teach to the lower level of the class while giving the advanced student additional skills to work on — roll tacks, heel to steer, etc.</button>
+        <button class="qo" onclick="ans(this,'wrong','q2')">Slow the whole class down so no one feels left behind</button>
       </div>
       <div class="qfb" id="q2-fb"></div>
     </div>
   </div>
 </div>
 
-<!-- S3: Customer Service -->
+<!-- S3: Program Pathways -->
 <div class="sec" data-s="3">
   <div class="hero">
     <div class="hc">
       <div class="htag">Module 4</div>
-      <h2>Customer Service</h2>
-      <p>Every interaction shapes MacSailing's reputation — and whether someone comes back.</p>
+      <h2>Program Pathways</h2>
+      <p>Know every pathway cold so you can match any student to their perfect next step without hesitation.</p>
     </div>
   </div>
   <div class="cb">
-    <div class="g3">
-      <div class="sc"><div class="n">1st</div><div class="l">Impressions matter</div></div>
-      <div class="sc"><div class="n">∞</div><div class="l">Patience required</div></div>
-      <div class="sc"><div class="n">0</div><div class="l">Gossip tolerance</div></div>
+    <p class="lead">You may not teach all of these programs but you need to know all of them. Every student you work with deserves a clear, confident recommendation for what comes next. You are their guide into the MacSailing community.</p>
+
+    <div class="pathway">
+      <h3>🎓 The Main Learning Pathway</h3>
+      <div class="prow"><span class="pstep">First Time Sailor</span><span class="parrow">→</span><span class="pstep">CANSail 1</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Learn</span><span class="parrow">→</span><span class="pstep">CANSail 2</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Race</span></div>
+      <div class="prow" style="margin-top:4px"><span class="pstep">CANSail 2 grad</span><span class="parrow">→</span><span class="pstep">Basic Cruising</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Cruise</span><span class="parrow">→</span><span class="pstep">Vancouver by Sea</span></div>
     </div>
-    <h3 class="sub">Standards</h3>
+
+    <div class="pathway" style="background:linear-gradient(135deg,#1A4A2E,#1A7048);">
+      <h3>🌊 Mac Crew Streams</h3>
+      <div class="prow"><span class="pstep">CANSail 1 grad</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Learn</span></div>
+      <div class="prow"><span class="pstep">CANSail 2 grad</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Race</span></div>
+      <div class="prow"><span class="pstep">Basic Cruising grad</span><span class="parrow">→</span><span class="pstep highlight">Mac Crew: Cruise</span></div>
+    </div>
+
+    <h3 class="sub">Other Entry Points</h3>
+    <div class="tw"><table>
+      <tr><th>Customer</th><th>Recommend</th></tr>
+      <tr><td>Wants to rent but hasn't sailed</td><td>CANSail 1 first — then Zest rental on completion</td></tr>
+      <tr><td>Corporate / social group loved it</td><td>CANSail 1 or private lesson to build on the experience</td></tr>
+      <tr><td>Almost finished CANSail level</td><td>Mac Crew event or private lesson to complete last objective — there is no fail</td></tr>
+      <tr><td>Wants to cruise someday</td><td>CANSail 1 → 2 → Basic Cruising Standard → Mac Crew: Cruise</td></tr>
+      <tr><td>Already sails, wants to race</td><td>CANSail 2 assessment → Mac Crew: Race</td></tr>
+      <tr><td>Wants a premium experience</td><td>Vancouver by Sea — tours aboard a 40ft sailboat</td></tr>
+    </table></div>
+
+    <div class="al al-s"><div class="ai">🌟</div><div class="at"><strong>There is no fail.</strong> If a student needs one more session to complete their last objective, suggest a Mac Crew event or private lesson. Frame it as an opportunity, not a setback.</div></div>
+  </div>
+</div>
+
+<!-- S4: Running the Class -->
+<div class="sec" data-s="4">
+  <div class="hero">
+    <div class="hc">
+      <div class="htag">Module 5</div>
+      <h2>Running the Class</h2>
+      <p>As Lead Instructor, you own the class from the moment students walk in to the moment they leave.</p>
+    </div>
+  </div>
+  <div class="cb">
+
+    <h3 class="sub">Schedule</h3>
+    <div class="tw"><table>
+      <tr><th>Format</th><th>Schedule</th></tr>
+      <tr><td>Weekday evenings</td><td>5 days in a row · 6–9pm (shifts to 5:30–8:30pm then 4:30–7:30pm later in season)</td></tr>
+      <tr><td>Weekends</td><td>Two weekends in a row · mornings or evenings</td></tr>
+      <tr><td>Arrive</td><td><strong>30 minutes before class start</strong> — in the classroom, not on site</td></tr>
+    </table></div>
+
+    <h3 class="sub">First Day Checklist</h3>
     <div class="card"><ul class="st">
-      <li>Be friendly and welcoming with students, parents, and guests at all times</li>
-      <li>Use inclusive, age-appropriate language with every group</li>
-      <li>Avoid gossip, venting, or unprofessional conversations near customers or junior staff</li>
-      <li>Maintain a professional appearance — uniforms on, boats tidy, gear clean</li>
-      <li>Phones away on the water unless for safety or navigation</li>
+      <li>Boats already rigged before students arrive</li>
+      <li>In the classroom 30 minutes early — be happy and talk to people as they walk in</li>
+      <li>Draw the boat diagram and points of sail on the whiteboard before they arrive — neat writing only</li>
+      <li>Icebreaker introductions — include "Why did you decide to learn to sail?" and any prior experience</li>
+      <li>Explain course goals clearly at the start — students should know exactly what they're working toward</li>
+      <li>Take attendance — communicate missing students to the office on day 1</li>
+      <li>Confirm everyone has filled out a waiver — have them do it online</li>
+      <li>Explain Sail Canada registration and the 0 fee — what it means, what they get</li>
+      <li>Brief junior and first-year staff on their roles before the session starts</li>
     </ul></div>
-    <h3 class="sub">Handling Upset Customers</h3>
-    <div class="al al-w"><div class="ai">💬</div><div class="at"><strong>The Golden Rule:</strong> Stay calm → Listen briefly → Pass to a manager. Never argue, never over-promise, never over-explain.</div></div>
-    <div class="jstep"><div class="sdot">1</div><div class="sline"></div><div class="scont"><h4>Stay Calm</h4><p>Your calm energy is contagious. Do not match their frustration level under any circumstances.</p></div></div>
-    <div class="jstep"><div class="sdot">2</div><div class="sline"></div><div class="scont"><h4>Acknowledge</h4><p>"I hear you, that sounds frustrating." You don't need to solve it — just show you're listening.</p></div></div>
-    <div class="jstep"><div class="sdot">3</div><div class="scont"><h4>Pass to a Manager</h4><p>Politely connect them with the right person. Then follow up to make sure they got there.</p></div></div>
-    <h3 class="sub">Vancouver by Sea — Elevated Standard</h3>
-    <div class="al al-i"><div class="ai">🚢</div><div class="at"><strong>Higher bar.</strong> Vancouver by Sea guests are paying for a premium experience. Introduce yourself by name, anticipate needs before they're asked, and treat the boat with the care and attention it deserves at all times.</div></div>
+
+    <h3 class="sub">Staffing & Ratios</h3>
+    <div class="card"><ul class="st">
+      <li>Senior instructors lead the class — usually two per class</li>
+      <li>Junior and first-year staff fill assistant roles</li>
+      <li>Ratio: <strong>1 instructor for every 5 students</strong></li>
+      <li>Ensure junior staff are engaged — simply being on site is not working</li>
+    </ul></div>
+
+    <h3 class="sub">End of Course</h3>
+    <div class="card"><ul class="st">
+      <li>Every student gets a one-on-one evaluation before the final session ends</li>
+      <li>Explain next steps personally — don't leave it to an email</li>
+      <li>Introduce Mac Crew — exclusive events, 10% discount on rentals and tours</li>
+      <li>Lead instructor uploads participants to Checklick on the last day and completes their level</li>
+    </ul></div>
+
+    <h3 class="sub">CANSail Logs</h3>
+    <div class="card"><ul class="st">
+      <li>Sit down as a group at the end of every class to complete the log</li>
+      <li>Covers student issues, who needs extra help next session, repairs</li>
+      <li>First log: Sail Canada registration, handout email</li>
+      <li>Last log: makeup classes</li>
+      <li>Logs found on the Staff Hub</li>
+    </ul></div>
+
+    <h3 class="sub">Makeup Policy</h3>
+    <div class="al al-w"><div class="ai">🌧️</div><div class="at"><strong>What to tell students:</strong> "Sailing is very weather-dependent. We always plan for one day of inclement weather — you can still be successful with 4 days on the water. If we lose more than that, we'll schedule makeup days. We will not let weather impact your ability to complete the course."</div></div>
+    <div class="card"><ul class="st">
+      <li>2+ days cancelled (no sailing or new theory): offer makeup classes to the whole class. Pass anyone who has shown the skills — makeup is optional for them</li>
+      <li>1–2 days cancelled: offer makeup days to anyone who did not pass</li>
+    </ul></div>
+
     <div class="qblock">
       <h3>🧠 Quick Check</h3>
-      <p class="qq">A parent comes to pick-up visibly upset about a minor scrape their child got during a sailing session. What's your first move?</p>
+      <p class="qq">A student hasn't quite completed their last CANSail 1 objective by the final session. What do you do?</p>
       <div class="qopts">
-        <button class="qo" onclick="ans(this,'wrong','q3')">Explain in detail what happened and walk them through why it wasn't avoidable</button>
-        <button class="qo" onclick="ans(this,'correct','q3')">Stay calm, acknowledge their concern, confirm an incident report was filed, and offer to get a manager</button>
-        <button class="qo" onclick="ans(this,'wrong','q3')">Tell them scrapes are a normal part of sailing and not to worry</button>
+        <button class="qo" onclick="ans(this,'wrong','q3')">Mark them as incomplete and let them know they'll need to retake the course</button>
+        <button class="qo" onclick="ans(this,'correct','q3')">Suggest a Mac Crew: Learn event or private lesson to complete the last objective — frame it as an opportunity, not a setback</button>
+        <button class="qo" onclick="ans(this,'wrong','q3')">Pass them anyway — they were close enough</button>
       </div>
       <div class="qfb" id="q3-fb"></div>
     </div>
   </div>
 </div>
 
-<!-- S4: Customer Journey -->
-<div class="sec" data-s="4">
-  <div class="hero">
-    <div class="hc">
-      <div class="htag">Module 5</div>
-      <h2>The Customer Journey</h2>
-      <p>From first click to loyal community member — your role touches every stage of this journey.</p>
-    </div>
-  </div>
-  <div class="cb">
-    <p class="lead">In 2026 the goal is retention as much as acquisition. We want people to take a course, join Mac Crew, and stay connected to MacSailing for years. You're the most important factor in whether that happens.</p>
-    <h3 class="sub">Youth Camp Journey</h3>
-    <div class="jstep"><div class="sdot">1</div><div class="sline"></div><div class="scont"><h4>📣 Discovery &amp; Registration</h4><p>Parent finds MacSailing online and registers. Their expectations are set by our website. They arrive expecting safe, organized, and fun.</p></div></div>
-    <div class="jstep"><div class="sdot">2</div><div class="sline"></div><div class="scont"><h4>👋 Arrival &amp; Drop-Off</h4><p>You greet families at the beach. Warm, organized, in uniform. This moment sets the tone for the entire week — get it right.</p></div></div>
-    <div class="jstep"><div class="sdot">3</div><div class="sline"></div><div class="scont"><h4>⛵ On-Water Experience</h4><p>This is the product. Energy, safety, coaching, fun. Your coaching quality is what MacSailing is selling.</p></div></div>
-    <div class="jstep"><div class="sdot">4</div><div class="sline"></div><div class="scont"><h4>🌞 Lunch &amp; Land Time</h4><p>You're still working. Engage with students, supervise actively. These moments build the relationships that make kids beg their parents to come back.</p></div></div>
-    <div class="jstep"><div class="sdot">5</div><div class="sline"></div><div class="scont"><h4>🏠 Pick-Up &amp; Parent Moment</h4><p>Organized dismissal. Share one specific positive moment with each parent: "Emma landed her first tack independently today." File any incident reports before families leave.</p></div></div>
-    <div class="jstep"><div class="sdot">6</div><div class="scont"><h4>🔄 Return, Growth &amp; Community</h4><p>Stoked students come back next year — and bring friends. For older youth (12–15), the new cruising stream gives them somewhere to grow into. That progression is the retention engine.</p></div></div>
-
-    <h3 class="sub">Adult Journey → Mac Crew Pipeline</h3>
-    <div class="card"><ul class="st">
-      <li><strong>Books a course</strong> → expects professional, structured learning</li>
-      <li><strong>First session</strong> → introduce yourself, set expectations, explain the progression path</li>
-      <li><strong>Mid-course</strong> → honest conversations about progress, Checklick check-in</li>
-      <li><strong>Completion</strong> → certification filed, warm handoff to the right Mac Crew stream</li>
-      <li><strong>Mac Crew member</strong> → now part of the community, attends socials, refers friends</li>
-      <li><strong>Advanced pathway</strong> → Learn → Race or Cruise → Vancouver by Sea sails</li>
-    </ul></div>
-
-    <div class="al al-s"><div class="ai">🌟</div><div class="at"><strong>The 2026 goal:</strong> Every adult who completes a course leaves knowing which Mac Crew stream is right for them. That warm handoff is your job — and it's the most important retention action you can take.</div></div>
-  </div>
-</div>
-
-<!-- S5: Your Role -->
+<!-- S5: Wind & Conditions -->
 <div class="sec" data-s="5">
   <div class="hero">
     <div class="hc">
       <div class="htag">Module 6</div>
-      <h2>Your Role as Senior Instructor</h2>
-      <p>You don't just teach — you run the show, mentor the team, and set the standard.</p>
+      <h2>Wind, Conditions & Seamanship</h2>
+      <p>Know how conditions affect the session and how to adapt your teaching accordingly.</p>
     </div>
   </div>
   <div class="cb">
-    <h3 class="sub">The Staff Hierarchy</h3>
-    <div class="tw"><table>
-      <tr><th>Role</th><th>What they do</th></tr>
-      <tr><td><strong>Senior Staff (You)</strong></td><td>Run the class, mentor juniors, lead debriefs, first on water / last off</td></tr>
-      <tr><td>Intermediate (3rd–4th year)</td><td>Support seniors, growing independence</td></tr>
-      <tr><td>Junior (2nd–3rd year)</td><td>Assisting, building confidence under your guidance</td></tr>
-      <tr><td>1st Year Staff</td><td>Learning — follow your lead</td></tr>
-    </table></div>
-    <h3 class="sub">Daily Responsibilities</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Before</div><ul class="st"><li>Arrive early, check in, prep gear and boats</li><li>Lead or join team pre-brief</li><li>Know the plan — and make sure your team does too</li><li>Be in the classroom when students arrive</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">⛵</div>On the Water</div><ul class="st"><li>First on water, last off — no exceptions</li><li>Actively coach, don't just observe</li><li>Constant specific feedback</li><li>Monitor group safety at all times</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📝</div>After</div><ul class="st"><li>Run instructor debrief, plan tomorrow</li><li>Complete logs and fleet inspections</li><li>File any incident reports before leaving</li><li>Handoff to manager if anything needs escalating</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🎓</div>Mentoring</div><ul class="st"><li>Junior staff learn by watching you — make it count</li><li>In second half of summer, give them more lead time with your support</li><li>Calm, kind, professional — every day</li></ul></div>
-    </div>
-    <h3 class="sub">Company Structure 2026</h3>
 
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon">🏢</div>Leadership</div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Nick Slaney</strong></td><td>Managing Director · Primary Contact</td><td>Overall operations, leadership, decision-making, escalations</td></tr>
-        <tr><td><strong>Dave Thomas</strong></td><td>Director · Ownership</td><td>Strategic oversight, business guidance</td></tr>
-      </table></div>
+    <h3 class="sub">Wind Level Focus Points</h3>
+    <div class="g3">
+      <div class="card"><div class="ctitle"><div class="cicon">🍃</div>Light Wind</div><ul class="st"><li>Flat boat</li><li>Smooth movements to keep momentum</li><li>Great for beginners building confidence</li></ul></div>
+      <div class="card"><div class="ctitle"><div class="cicon">💨</div>Medium Wind</div><ul class="st"><li>When switching, crew doesn't cross the middle line until the skipper does</li><li>Good for developing skill and boat speed</li></ul></div>
+      <div class="card"><div class="ctitle"><div class="cicon">🌬️</div>Heavy Wind</div><ul class="st"><li>Sail powers up until it reaches its correctly trimmed position</li><li>Think about balance position before the sail is trimmed</li><li>If necessary — drop the sheet, never drop the tiller</li></ul></div>
     </div>
 
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon">⛵</div>Instructor &amp; Camp Operations</div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Alissa Morris</strong></td><td>Summer Camp Director</td><td>Instructor management, scheduling, staffing, communications</td></tr>
-        <tr><td><strong>Charlie Boettcher</strong></td><td>Sailing Program Manager</td><td>On-site program execution, camp delivery, instructor supervision, payroll</td></tr>
-        <tr><td><strong>Luna Wagner</strong></td><td>Instructor Lead</td><td>Instructor training, evaluating, supervising, basic admin</td></tr>
-        <tr><td><strong>Lorcan Martin</strong></td><td>Instructor Lead</td><td>Instructor training, evaluating, supervising, basic admin</td></tr>
-      </table></div>
-    </div>
-
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon">🎓</div>Adult Programs</div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Lorna Bruce</strong></td><td>Adult Program Manager</td><td>Curriculum, coaching philosophy, instructor training, community growth</td></tr>
-      </table></div>
-    </div>
-
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon">🚢</div>Cruising &amp; Tourism</div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Maren Bradbrooke</strong></td><td>Cruising &amp; Tourism Manager</td><td>Cruising programs, Vancouver by Sea operations, tourism delivery</td></tr>
-      </table></div>
-    </div>
-
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon">🏪</div>Office &amp; Customer Experience</div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Nicola Braun</strong></td><td>Office &amp; Camp Manager</td><td>Bookings, customer service, office operations</td></tr>
-        <tr><td><strong>Euan Wallace</strong></td><td>Weekend Office Manager</td><td>Weekend operations, check-ins, customer support</td></tr>
-      </table></div>
-    </div>
-
-    <div class="card" style="margin-bottom:14px;">
-      <div class="ctitle"><div class="cicon" style="background:linear-gradient(135deg,var(--muted),#8aa);">📣</div><span style="color:var(--muted);">Support Roles <span style="font-size:.75rem;font-weight:400;">— not active onsite</span></span></div>
-      <div class="tw" style="margin-bottom:0"><table>
-        <tr><th>Name</th><th>Role</th><th>Responsible for</th></tr>
-        <tr><td><strong>Victoria Hyde</strong></td><td>Marketing Manager</td><td>Campaigns, content, program promotion</td></tr>
-        <tr><td><strong>Yuanning (Aaron) Peng</strong></td><td>Repairs &amp; Maintenance Manager</td><td>Fleet, equipment, operational readiness</td></tr>
-      </table></div>
-    </div>
-
-    <h3 class="sub">How It Works</h3>
+    <h3 class="sub">Light Wind Day Plan</h3>
     <div class="card"><ul class="st">
-      <li><strong>Nick &amp; Dave</strong> — final decision and escalation on anything significant</li>
-      <li><strong>Managers own their lanes</strong> — go to the right person for the right thing</li>
-      <li><strong>All managers support daily operations first</strong>, then their departments</li>
+      <li><strong>8:30–9:15 AM — Rig & Wind Awareness:</strong> Full rig and safety check. Use flags to discuss current wind. Walk through points of sail and launch plan</li>
+      <li><strong>9:15–10:45 AM — On-Water Practice:</strong> Launch if any breeze at all (even 1–3 knots). Steering drills, slow-speed tacks, balance and tiller control. Capsizing if later in the course</li>
+      <li><strong>10:45–11:15 AM — Head In + Reflection:</strong> Land and hydrate. Group chat: what are you starting to feel comfortable with? Keep morale up — frame as real-world sailing practice</li>
+      <li><strong>11:15 AM–12:15 PM — Land Skills:</strong> Dryland tacks, knots (bowline, figure-8, cleat hitch, sheet bend), right-of-way scenarios, rigging challenges</li>
+      <li><strong>12:15–12:30 PM — Wrap-Up:</strong> Recap key takeaways. Preview tomorrow. Reassure: "This is part of sailing. You're building real awareness and control."</li>
     </ul></div>
 
-    <div class="al al-i"><div class="ai">📄</div><div class="at"><strong>Full Manager Duties</strong><br>
-    <a href="https://docs.google.com/document/d/1L-GqfreoDpLG2wvseXccMjhPt9nEYD7LUX0oYGph5o0/edit?tab=t.0" target="_blank" style="color:var(--blue);font-weight:700;text-decoration:none;">View Manager Duties on Google Docs ↗</a></div></div>
+    <h3 class="sub">Seamanship for Interested Students</h3>
+    <div class="card"><ul class="st">
+      <li>Bigger, heavier boats take longer to respond compared to Zests and 420s — set this expectation when students talk about cruising</li>
+      <li>Take good care of equipment — it makes it last longer and models professional behaviour</li>
+      <li>Students should always tell you if something breaks — then log it in the Repairs Log</li>
+      <li>Plan in advance — e.g. plan how to come into the beach based on current wind direction. How will you slow the boat down?</li>
+      <li>Talk about weather, wind, and tides — especially with students interested in cruising</li>
+    </ul></div>
+  </div>
+</div>
 
-    <div class="onsite"><span>📋</span><p><strong>At your orientation:</strong> You'll meet the full team in person. Come with names already learned — it makes a strong first impression.</div>
-    <div class="onsite"><span>📋</span><p><strong>At your orientation:</strong> You'll meet the management team in person and go through leadership scenarios as a group. Come with questions ready.</p></div>
+<!-- S6: Scenarios -->
+<div class="sec" data-s="6">
+  <div class="hero">
+    <div class="hc">
+      <div class="htag">Module 7</div>
+      <h2>Scenarios</h2>
+      <p>Real situations you'll face. Read the scenario, think about your response, then click to see the answer.</p>
+    </div>
+  </div>
+  <div class="cb">
+    <p class="lead">These are based on real situations that come up in adult classes. Read each one, think through your approach, then reveal the answer.</p>
+
+    <div class="scenario open">
+      <div class="scenario-hdr" onclick="toggleScenario(this)">
+        <h4>Scenario 1 — Managing High Expectations</h4>
+        <span class="tag">Expectation Setting</span>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="scenario-body">
+        <p class="scenario-q">"An adult student enters the class with high expectations of mastering advanced sailing techniques quickly. How do you communicate realistic learning objectives while ensuring a positive experience?"</p>
+        <div class="scenario-a">
+          <p>"Our goal is to get you sailing comfortably in light to moderate wind by the end of the course. The basics of sailing take a lot of time, practice, and repetition to master — we want to make sure you have those fundamentals nailed down. That said, you should be able to sail a Zest by yourself by the end of this course. We have lots of other courses to guide you into more advanced skills. During this course, if you're doing well we'll give you additional techniques to work on." Suggest they write down their goals and bring them to the next class.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scenario">
+      <div class="scenario-hdr" onclick="toggleScenario(this)">
+        <h4>Scenario 2 — Student Frustration</h4>
+        <span class="tag">Coaching</span>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="scenario-body">
+        <p class="scenario-q">"An adult learner becomes frustrated after struggling with a skill. How do you provide support and keep them motivated?"</p>
+        <div class="scenario-a">
+          <p>"Everyone is learning — these are completely new skills and they take time to master. Take a breath and we'll watch you try again and give you specific tips." Break the skill down into parts — identify what they're doing well and what specifically is causing trouble. Stay calm and patient yourself. Your frustration (or lack of it) is contagious.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scenario">
+      <div class="scenario-hdr" onclick="toggleScenario(this)">
+        <h4>Scenario 3 — Wide Skill Range</h4>
+        <span class="tag">Class Management</span>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="scenario-body">
+        <p class="scenario-q">"You have a mix of adults with varying experience. How do you keep everyone challenged and engaged?"</p>
+        <div class="scenario-a">
+          <p>Teach to the lower level of the class while giving advanced participants additional skills to work on (roll tacks, heel to steer, etc.). Give extra one-on-one attention to the boats at the lower level — potentially have a second senior coach focus on them while you manage the rest.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scenario">
+      <div class="scenario-hdr" onclick="toggleScenario(this)">
+        <h4>Scenario 4 — Mobility Challenges</h4>
+        <span class="tag">Inclusion</span>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="scenario-body">
+        <p class="scenario-q">"A student is having trouble crossing the boat — mobility issues are affecting their ability to tack."</p>
+        <div class="scenario-a">
+          <p>Ask if they're okay or experiencing discomfort — they probably already know what's wrong. Go over the steps again and find modifications (placing back foot across before the tack, adjusting tiller exchange timing). Ask them to demonstrate another tack so you can watch. Let them know there are other options — 420s for next course, cruising is also available. In extreme cases find shortcuts that work safely. If it affects their ability to sail safely alone, communicate this to Lorna.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scenario">
+      <div class="scenario-hdr" onclick="toggleScenario(this)">
+        <h4>Scenario 5 — Light Wind Day</h4>
+        <span class="tag">Conditions</span>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="scenario-body">
+        <p class="scenario-q">"It's nearly windless. How do you run a productive session?"</p>
+        <div class="scenario-a">
+          <p>Launch anyway if there's any breeze at all (even 1–3 knots) for steering and balance drills. Head in after 60–90 minutes and run a full land session — knots, right-of-way scenarios, rigging challenges, dryland tacks. Keep morale high: "This is part of sailing. You're building real awareness and boat feel." Wrap up by previewing tomorrow's goals. Never cancel without trying.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="qblock">
       <h3>🧠 Quick Check</h3>
-      <p class="qq">You're one of three Senior Instructors working a large youth camp day. How do you decide who leads the session?</p>
+      <p class="qq">It's day 3 of a CANSail 1 course and the wind is nearly 0. What do you do?</p>
       <div class="qopts">
-        <button class="qo" onclick="ans(this,'wrong','q4')">The most experienced Senior automatically takes lead — no need to discuss it</button>
-        <button class="qo" onclick="ans(this,'correct','q4')">Decide who is Lead before the session starts — everyone knows the flow before you hit the water</button>
-        <button class="qo" onclick="ans(this,'wrong','q4')">All three share leadership equally throughout the session</button>
+        <button class="qo" onclick="ans(this,'wrong','q4')">Cancel the session and count it as a weather day</button>
+        <button class="qo" onclick="ans(this,'correct','q4')">Launch for light-wind practice (even 1–3 knots), head in after 60–90 min, then run a full land session — knots, dryland tacks, right-of-way scenarios</button>
+        <button class="qo" onclick="ans(this,'wrong','q4')">Run a classroom theory session only and send them home early</button>
       </div>
       <div class="qfb" id="q4-fb"></div>
     </div>
   </div>
 </div>
 
-<!-- S6: Scheduling & Admin -->
-<div class="sec" data-s="6">
-  <div class="hero">
-    <div class="hc">
-      <div class="htag">Module 7</div>
-      <h2>Scheduling, Comms &amp; Standards</h2>
-      <p>How we communicate, how shifts work, what we expect, and how you're rewarded for a great season.</p>
-    </div>
-  </div>
-  <div class="cb">
-
-    <h3 class="sub">Scheduling</h3>
-    <div class="card"><ul class="st">
-      <li><strong>Google Calendar</strong> is how shifts are posted — check it regularly and keep it visible</li>
-      <li>Shifts are posted <strong>at least 2 weeks in advance</strong></li>
-      <li>Changes within 2 weeks will be <strong>communicated directly</strong> to you</li>
-      <li><strong>Privates marked TBC</strong> means you're on call — a student may be booked. Within 48 hours of the session time, if you haven't heard from us, assume no lesson</li>
-      <li>If a booking comes in within 48 hours, we will reach out to you directly</li>
-    </ul></div>
-
-    <div class="al al-w"><div class="ai">📅</div><div class="at"><strong>Can't make a shift?</strong> Post in the WhatsApp Shift Coverage group with a valid reason. Avoid last-minute unless it's a genuine emergency. Repeated last-minute cancellations affect your performance rating and end-of-season bonus.</div></div>
-
-    <h3 class="sub">Hours &amp; Pay</h3>
-    <div class="card"><ul class="st">
-      <li>Sign in at the start of your shift, sign out at the end</li>
-      <li>Sign out for long breaks between programs — do NOT sign out for lunch</li>
-      <li>Pay periods: 1–15 and 16–end of month. Paycheque within one week of period end</li>
-      <li>Any payroll questions go to Charlie Boettcher</li>
-    </ul></div>
-
-    <h3 class="sub">Communications</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">📅</div>Google Calendar</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Shift scheduling. Check it regularly. Subscribe and keep notifications on. This is the source of truth for when you work.</p>
-      </div>
-      <div class="card"><div class="ctitle"><div class="cicon">📢</div>WhatsApp — Announcements</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Major updates from Nick, Alissa, or Charlie. Read every message. This is where important season-wide information lands.</p>
-      </div>
-      <div class="card"><div class="ctitle"><div class="cicon">🔄</div>WhatsApp — Shift Coverage</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Can't make a shift? Post here with your reason. Give as much notice as possible. Last-minute posts without a valid reason are noted.</p>
-      </div>
-      <div class="card"><div class="ctitle"><div class="cicon">📻</div>Radio — On Water</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Short, clear, professional at all times. Refer to the Radio Etiquette Guide in the Staff Hub. Radio is on you whenever you're on the water.</p>
-      </div>
-      <div class="card"><div class="ctitle"><div class="cicon">📧</div>Email</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Formal communication and availability changes. Availability updates must be sent by email at least two weeks in advance.</p>
-      </div>
-      <div class="card"><div class="ctitle"><div class="cicon">📱</div>Staff Hub</div>
-        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">SOPs, logs, forms, program packs. Your first stop before asking a manager. See the Staff Hub module for full details.</p>
-      </div>
-    </div>
-
-    <h3 class="sub">Progressive Discipline System</h3>
-    <p class="lead">New in 2026. This system ensures fairness, accountability, and clear expectations for everyone.</p>
-
-    <div style="background:#FEF2F2;border-left:4px solid #C0392B;border-radius:var(--r);padding:14px 18px;margin-bottom:10px;">
-      <p style="font-size:.86rem;font-weight:700;color:#C0392B;margin-bottom:6px;">1st Write-Up — Verbal Warning</p>
-      <ul class="st"><li>Conversation with supervisor — issue documented internally</li><li>Staff member loses 50% of bonus eligibility</li></ul>
-    </div>
-    <div style="background:#FEF2F2;border-left:4px solid #922B21;border-radius:var(--r);padding:14px 18px;margin-bottom:10px;">
-      <p style="font-size:.86rem;font-weight:700;color:#922B21;margin-bottom:6px;">2nd Write-Up — Written Warning</p>
-      <ul class="st"><li>Formal written documentation with clear expectations for improvement</li><li>Staff member loses 100% of bonus eligibility</li></ul>
-    </div>
-    <div style="background:#FEF2F2;border-left:4px solid #641E16;border-radius:var(--r);padding:14px 18px;margin-bottom:16px;">
-      <p style="font-size:.86rem;font-weight:700;color:#641E16;margin-bottom:6px;">3rd Write-Up — Dismissal</p>
-      <ul class="st"><li>Termination of employment</li></ul>
-    </div>
-
-    <h3 class="sub">What Can Lead to a Write-Up</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">⏰</div>Attendance &amp; Reliability</div><ul class="st"><li>Repeatedly late to shifts or classes</li><li>No-shows or last-minute cancellations without valid reason</li><li>Leaving early without approval</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Failure to Follow Procedures</div><ul class="st"><li>Not completing required checklists or logs</li><li>Ignoring radio protocols</li><li>Not following lesson plans or program structure without valid reason</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🔧</div>Equipment &amp; Property</div><ul class="st"><li>Negligent damage to boats or equipment</li><li>Not reporting damage or issues</li></ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">👔</div>Professional Conduct</div><ul class="st"><li>Inappropriate language or behaviour with participants or staff</li><li>Poor attitude, lack of teamwork, or refusal to follow direction</li><li>Not representing MacSailing professionally</li><li>Phone use during program time that distracts from supervision or safety</li></ul></div>
-      <div class="card" style="grid-column:span 2"><div class="ctitle"><div class="cicon">🛡️</div>Safety Violations</div><ul class="st"><li>Not enforcing or following lifejacket rules</li><li>Unsafe boat operation or poor judgment on the water</li><li>Ignoring weather limits or instructions from senior staff</li><li>Not wearing a kill cord while operating a coach boat</li><li>Improper use of a coach boat or unsafe positioning around students</li><li>Smoking, vaping, alcohol, or drug use while at work</li></ul></div>
-    </div>
-    <div class="al al-i"><div class="ai">💡</div><div class="at"><strong>Most issues are preventable with good communication and effort.</strong> If you're unsure about anything — ask before acting. That is always the right move.</div></div>
-
-    <div class="al al-d"><div class="ai">🚫</div><div class="at"><strong>Phone policy:</strong> Phones are not permitted on the water during sessions except for safety or navigation. Taking photos of students on the water is permitted only when explicitly approved by a manager — and only by the person given that permission. Phone use in front of students or guests for any other purpose is unprofessional and affects your end-of-season bonus.</div></div>
-
-    <h3 class="sub">Performance Standards</h3>
-    <p class="lead">These are the standards we hold every Senior Instructor to. They're not just about doing the job — they're about doing it with excellence. Performance is reviewed at end of season and directly impacts your bonus.</p>
-
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">⏰</div>Punctuality &amp; Reliability</div><ul class="st">
-        <li>Arrive before your shift start time — ready to work, not arriving to get ready</li>
-        <li>Arrive at least 15 minutes before your shift start time — earlier when setup is required</li><li>Consistent late arrivals are noted and affect your bonus</li>
-        <li>Give maximum notice for any absence</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🛡️</div>Safety Compliance</div><ul class="st">
-        <li>Safety protocols followed without exception, every session</li>
-        <li>Incident reports completed same day, every time</li>
-        <li>Fleet inspections done and logged as required</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Log &amp; Admin Completion</div><ul class="st">
-        <li>CANSail logs completed after every session</li>
-        <li>Checklick uploaded on schedule — no surprises for students</li>
-        <li>Repairs reported promptly — never ignored</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🌟</div>Student &amp; Guest Experience</div><ul class="st">
-        <li>Students leave with a sense of accomplishment every session</li>
-        <li>Parents feel informed and confident at pick-up</li>
-        <li>Guests feel the MacSailing standard — professional, warm, excellent</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">🤝</div>Teamwork &amp; Mentoring</div><ul class="st">
-        <li>Junior staff are actively supported and developed</li>
-        <li>Team debriefs are led well and taken seriously</li>
-        <li>You contribute to a positive team culture — not just your own sessions</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">👔</div>Professionalism</div><ul class="st">
-        <li>Uniform worn correctly every shift</li>
-        <li>No phone use in front of students, parents, or guests</li>
-        <li>Language, attitude, and conduct reflect MacSailing values at all times</li>
-      </ul></div>
-    </div>
-
-    <h3 class="sub">End-of-Season Bonus</h3>
-    <div class="al al-s"><div class="ai">🎉</div><div class="at"><strong>MacSailing rewards a great season.</strong> An end-of-season bonus is available to all staff, with the amount based on your role. Your performance across the season determines whether you receive it in full.</div></div>
-
-    <div class="card"><div class="ctitle"><div class="cicon">✅</div>What earns your full bonus</div><ul class="st">
-      <li>Consistent punctuality and reliability throughout the season</li>
-      <li>Safety protocols followed without exception</li>
-      <li>Logs, Checklick, and admin completed on time</li>
-      <li>Professional conduct — uniform, phone policy, attitude</li>
-      <li>Positive contribution to team culture and junior staff development</li>
-      <li>Strong student and guest experience delivery</li>
-    </ul></div>
-
-    <div class="card"><div class="ctitle" style="color:var(--danger);"><div class="cicon" style="background:linear-gradient(135deg,var(--danger),#e87a6d);">⚠️</div>What affects your bonus</div><ul class="st">
-      <li>Repeated late arrivals or last-minute shift cancellations</li>
-      <li>Phone use in front of students, parents, or guests</li>
-      <li>Incomplete logs, missed Checklick uploads, or unreported repairs</li>
-      <li>Safety protocol failures</li>
-      <li>Unprofessional conduct or conduct inconsistent with MacSailing values</li>
-    </ul></div>
-
-    <div class="al al-i"><div class="ai">💬</div><div class="at"><strong>Bonus amounts vary by role</strong> and will be communicated to you directly. If you have questions about your specific bonus structure, speak with Alissa or Nick.</div></div>
-
-    <div class="al al-w"><div class="ai">🔧</div><div class="at"><strong>Equipment:</strong> Things break — report it, don't ignore it.<br><strong>Pink tape</strong> on a boat or piece of equipment means it is out of service — do not use it under any circumstances.<br>Log all repairs using the <strong>Repairs Reporting Form</strong> in the Staff Hub. Check your equipment each morning. Never launch with gear you know is compromised.</div></div>
-
-    <h3 class="sub">CANSail Logs &amp; Checklick</h3>
-    <div class="card"><ul class="st">
-      <li>Run a debrief after every CANSail session — even if no log is needed</li>
-      <li>Logs let another instructor pick up the class if someone is sick</li>
-      <li>For adults who don't pass: communicate to Lorna and log it immediately</li>
-      <li>Upload Checklick: Thursdays end-of-day, or second-weekend Saturdays for adult classes</li>
-      <li>Have the progress conversation before uploading — their level should never be a surprise</li>
-      <li>CANSail 2.0: "developing / performing / extending" — only performing checked to pass. Extending is bonus</li>
-    </ul></div>
-
-  </div>
-</div>
-
-<!-- S7: Staff Hub -->
+<!-- S7: Complete -->
 <div class="sec" data-s="7">
-  <div class="hero">
-    <div class="hc">
-      <div class="htag">Module 8</div>
-      <h2>Staff Hub &amp; Finding What You Need</h2>
-      <p>Everything you need to do your job is in one place — the MacSailing Staff Hub.</p>
-    </div>
-  </div>
-  <div class="cb">
-    <p class="lead">The Staff Hub is your go-to for every resource, log, form, and SOP. Before you ask a manager, check the Hub. It's built so you can find what you need quickly — on your phone, on the beach, any time.</p>
-
-    <div class="al al-i"><div class="ai">🔗</div><div class="at"><strong>Staff Hub URL</strong><br>
-    <a href="https://sites.google.com/macsailing.com/staff-hub/home" target="_blank" style="color:var(--blue);font-weight:700;text-decoration:none;">sites.google.com/macsailing.com/staff-hub ↗</a><br>
-    <span style="font-size:.8rem;color:var(--muted);">Bookmark this now. You'll use it constantly.</span></div></div>
-
-    <h3 class="sub">What Lives in the Staff Hub</h3>
-    <div class="g2">
-      <div class="card"><div class="ctitle"><div class="cicon">📋</div>Logs &amp; Forms</div><ul class="st">
-        <li>Incident Report Form</li>
-        <li>Fleet Inspection Log</li>
-        <li>Repairs Reporting Log</li>
-        <li>CANSail Instructor Logs</li>
-        <li>Private Lesson Log</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📖</div>SOPs &amp; Guides</div><ul class="st">
-        <li>Radio Etiquette Guide</li>
-        <li>Emergency Action Plan</li>
-        <li>Safety Protocols</li>
-        <li>Coach Boat Procedures</li>
-        <li>Capsize &amp; Rescue Procedures</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">⛵</div>Program Packs</div><ul class="st">
-        <li>CANSail Youth Instructor Packs</li>
-        <li>Beach Kids &amp; Aqua Adventures</li>
-        <li>Adult Course Guides</li>
-        <li>Youth Cruising — Junior Cruiser</li>
-        <li>Vancouver by Sea Briefing</li>
-      </ul></div>
-      <div class="card"><div class="ctitle"><div class="cicon">📅</div>Schedules &amp; Info</div><ul class="st">
-        <li>Season calendar</li>
-        <li>Staff contact list</li>
-        <li>Manager roles &amp; responsibilities</li>
-        <li>Uniform &amp; equipment standards</li>
-        <li>Facility map &amp; setup guides</li>
-      </ul></div>
-    </div>
-
-    <h3 class="sub">How to Navigate It</h3>
-    <div class="jstep"><div class="sdot">1</div><div class="sline"></div><div class="scont"><h4>Open the Staff Hub</h4><p>Go to <a href="https://sites.google.com/macsailing.com/staff-hub/home" target="_blank" style="color:var(--blue);font-weight:700;">the Staff Hub link</a> and bookmark it on your phone home screen — tap Share → Add to Home Screen.</p></div></div>
-    <div class="jstep"><div class="sdot">2</div><div class="sline"></div><div class="scont"><h4>Use the navigation menu</h4><p>Sections are organized by topic — Logs, SOPs, Program Packs, Schedules. Go to the section that matches what you need.</p></div></div>
-    <div class="jstep"><div class="sdot">3</div><div class="sline"></div><div class="scont"><h4>Can't find it?</h4><p>Use the search bar at the top of the page — type the name of what you're looking for. If it's not there, then ask Euan or your manager.</p></div></div>
-    <div class="jstep"><div class="sdot">4</div><div class="sline"></div><div class="scont"><h4>Something's missing or out of date?</h4><p>Tell Euan — he manages the Hub and wants to know when something needs updating.</p></div></div>
-
-    <h3 class="sub">Staff Hub vs. Your Manager</h3>
-    <div class="tw"><table>
-      <tr><th>Use the Staff Hub for…</th><th>Go to your manager for…</th></tr>
-      <tr><td>Finding a form or log</td><td>Anything involving a student incident</td></tr>
-      <tr><td>Reading an SOP or protocol</td><td>Shift changes and scheduling issues</td></tr>
-      <tr><td>Downloading a program pack</td><td>Questions the Hub doesn't answer</td></tr>
-      <tr><td>Checking facility or equipment procedures</td><td>Anything urgent or safety-related</td></tr>
-      <tr><td>Looking up manager contact info</td><td>Payroll discrepancies</td></tr>
-    </table></div>
-
-    <div class="al al-s"><div class="ai">📱</div><div class="at"><strong>Pro tip:</strong> Add the Staff Hub to your phone home screen before orientation day — tap Share → Add to Home Screen. When you first open it, <strong>click your role</strong> in the navigation to see your specific resources, guides, and logs.</div></div>
-
-    <div class="al al-i"><div class="ai">🔗</div><div class="at"><strong>Open the Staff Hub now</strong><br>
-    <a href="https://sites.google.com/macsailing.com/staff-hub/home" target="_blank" style="color:var(--blue);font-weight:700;text-decoration:none;">sites.google.com/macsailing.com/staff-hub ↗</a><br>
-    <span style="font-size:.8rem;color:var(--muted);">Click your role when you land — Senior Instructor resources are specific to you.</span></div></div>
-
-    <div class="qblock">
-      <h3>🧠 Quick Check</h3>
-      <p class="qq">You're about to run your first CANSail youth session and want to review the lesson progression. Where do you look first?</p>
-      <div class="qopts">
-        <button class="qo" onclick="ans(this,'wrong','q5')">Text your manager and ask them to send it</button>
-        <button class="qo" onclick="ans(this,'correct','q5')">Open the Staff Hub → Program Packs → CANSail Youth Instructor Pack</button>
-        <button class="qo" onclick="ans(this,'wrong','q5')">Search Google for the CANSail curriculum</button>
-      </div>
-      <div class="qfb" id="q5-fb"></div>
-    </div>
-  </div>
-</div>
-
-<!-- S8: Complete -->
-<div class="sec" data-s="8">
   <div class="done-screen">
     <div class="done-badge">⚓</div>
     <h2>Pre-Work Complete!</h2>
-    <p>You've covered the foundation for the 2026 season. Great work.</p>
+    <p>You're ready to lead adult programs at MacSailing. Co-teach with a senior or Lorna to get signed off — then it's yours to run.</p>
     <div class="next-box">
-      <h4>What happens next</h4>
+      <h4>Next steps</h4>
       <ul>
-        <li>Bring any questions to your in-person orientation</li>
-        <li>Safety scenarios and leadership practice happen live — be ready to engage</li>
-        <li>You'll meet the full management team at orientation</li>
-        <li>Practical on-water training follows — review the program packs in the Staff App</li>
+        <li>Co-teach with Lorna, a manager, or a trained senior instructor</li>
+        <li>Get signed off when you and your co-coach agree you're ready</li>
+        <li>Review the program packs for your assigned levels in the Staff Hub</li>
+        <li>Any questions — go to Lorna Bruce (Adult Program Manager)</li>
       </ul>
     </div>
     <div class="wmods" style="justify-content:center;margin-bottom:22px;">
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Who We Are</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ 2026 Programs</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Mac Crew Streams</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Vancouver by Sea</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Customer Journey</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Your Role</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Scheduling</span>
-      <span class="wmod" style="background:rgba(27,95,170,.08);border-color:rgba(27,95,170,.2);color:var(--blue);">✅ Staff Hub</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Adult Journey</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ CANSail Levels</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Teaching Adults</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Pathways</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Running the Class</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Conditions</span>
+      <span class="wmod" style="background:rgba(0,86,160,.08);border-color:rgba(0,86,160,.2);color:var(--blue);">✅ Scenarios</span>
     </div>
     <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:8px;">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3I28ELCHeoY286LZRANDbbgcdkEInyVtW6YGKEYUgUIWzcQ/viewform" target="_blank" class="btn btn-p" style="text-decoration:none;background:var(--accent);color:white;padding:12px 28px;font-size:.95rem;">Complete Your Worksheet →</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5co7HhJVJEEoH5lXGUEk0gw6FzMYOE9SDfktGfxJKjTgbmA/viewform?usp=sharing&ouid=103094503477684416902" target="_blank" class="btn btn-p" style="text-decoration:none;padding:12px 28px;font-size:.95rem;">Complete Your Worksheet →</a>
       <button class="btn btn-g" onclick="goTo(0)">← Review from Start</button>
     </div>
   </div>
@@ -830,41 +616,35 @@ tr:hover td{background:rgba(27,95,170,.03)}
   <button class="btn btn-p" id="bnext" onclick="nav(1)">Next →</button>
 </div>
 
-</div><!-- /main -->
+</div>
 
 <script>
 const SECS=[
-  {l:"Welcome & What's New",g:"Getting Started"},
-  {l:"Who We Are",g:"Foundation"},
-  {l:"2026 Programs & Products",g:"Foundation"},
-  {l:"Customer Service",g:"People Skills"},
-  {l:"The Customer Journey",g:"People Skills"},
-  {l:"Your Role",g:"Operations"},
-  {l:"Scheduling & Admin",g:"Operations"},
-  {l:"Staff Hub & Resources",g:"Operations"},
+  {l:"The Adult Journey",g:"Foundation"},
+  {l:"CANSail Levels & Fleet",g:"Foundation"},
+  {l:"Teaching Adults",g:"Coaching"},
+  {l:"Program Pathways",g:"Coaching"},
+  {l:"Running the Class",g:"Operations"},
+  {l:"Wind & Conditions",g:"Operations"},
+  {l:"Scenarios",g:"Practice"},
   {l:"Complete!",g:null}
 ];
 const ANS={
-  q1:{c:"Thoughtful Teaching — reassure them, give specific feedback, help them leave with a win",fb:"✅ Correct! Thoughtful Teaching is all about patience, specific feedback, and leaving every student with a sense of accomplishment — regardless of their natural ability."},
-  q2:{c:"Mac Crew: Learn — she wants community and low-pressure sailing. Racing would likely feel overwhelming given how she described her experience",fb:"✅ Correct! The right Mac Crew stream depends on the individual student — not just their certification level. She loved the community but found the technical side stressful. Mac Crew: Learn is the right fit. A CANSail 2 grad who loved the drills and wants to push their skills would go to Mac Crew: Race."},
-  q3:{c:"Stay calm, acknowledge their concern, confirm an incident report was filed, and offer to get a manager",fb:"✅ Correct! Acknowledge → De-escalate → Pass to manager. Never argue, never over-explain, never minimize their concern."},
-  q4:{c:"Decide who is Lead before the session starts — everyone knows the flow before you hit the water",fb:"✅ Correct! One designated Lead prevents confusion on the water. Decide together beforehand — not in the moment."},
-  q5:{c:"Open the Staff Hub → Program Packs → CANSail Youth Instructor Pack",fb:"✅ Correct! The Staff Hub is always your first stop. Program Packs, SOPs, logs — it's all there. Bookmark it on your phone."}
+  q1:{c:"Give them a warm personal handoff to Mac Crew: Learn — explain what it is, why it's right for them, and make them feel excited about it",fb:"✅ Correct! The handoff conversation is the most important retention action you take. Make it personal, warm, and specific to them — not generic."},
+  q2:{c:"Teach to the lower level of the class while giving the advanced student additional skills to work on — roll tacks, heel to steer, etc.",fb:"✅ Correct! Teach to the lower level while keeping advanced students challenged with bonus skills. No one gets bored, no one gets left behind."},
+  q3:{c:"Suggest a Mac Crew: Learn event or private lesson to complete the last objective — frame it as an opportunity, not a setback",fb:"✅ Correct! There is no fail. One more session to nail the last objective is a positive next step, not a failure."},
+  q4:{c:"Launch for light-wind practice (even 1–3 knots), head in after 60–90 min, then run a full land session — knots, dryland tacks, right-of-way scenarios",fb:"✅ Correct! Never cancel without trying. Even 1–3 knots gives useful practice. Land sessions are productive and keep morale high."}
 };
 let cur=0;const done=new Set();
-
 function ans(el,r,id){
   el.parentElement.querySelectorAll('.qo').forEach(o=>{o.disabled=true;o.style.pointerEvents='none'});
   el.classList.add(r);
   const fb=document.getElementById(id+'-fb');
   fb.classList.add('show',r==='correct'?'correct':'wrong');
   if(r==='correct'){fb.textContent=ANS[id].fb}
-  else{
-    fb.textContent="Not quite — review the section above. The correct answer is highlighted below.";
-    el.parentElement.querySelectorAll('.qo').forEach(o=>{if(o.textContent.trim()===ANS[id].c)o.classList.add('correct')});
-  }
+  else{fb.textContent="Not quite — review the section above. The correct answer is highlighted.";el.parentElement.querySelectorAll('.qo').forEach(o=>{if(o.textContent.trim()===ANS[id].c)o.classList.add('correct')})}
 }
-
+function toggleScenario(hdr){hdr.parentElement.classList.toggle('open')}
 function buildNav(){
   const nl=document.getElementById('navlist');
   let grp=null;
@@ -877,12 +657,8 @@ function buildNav(){
     d.onclick=()=>goTo(i);nl.appendChild(d);
   });
 }
-
 function ui(){
-  SECS.forEach((s,i)=>{
-    const el=document.getElementById('ni'+i);if(!el)return;
-    el.className='ni'+(i===cur?' active':'')+(done.has(i)&&i!==cur?' done':'');
-  });
+  SECS.forEach((s,i)=>{const el=document.getElementById('ni'+i);if(!el)return;el.className='ni'+(i===cur?' active':'')+(done.has(i)&&i!==cur?' done':'')});
   const p=Math.round((done.size/(SECS.length-1))*100);
   document.getElementById('pfill').style.width=p+'%';
   document.getElementById('pct').textContent=p+'%';
@@ -893,32 +669,17 @@ function ui(){
   document.getElementById('bnext').textContent=last?'Finish':'Next →';
   document.getElementById('bn').style.display=last?'none':'flex';
 }
-
-function goTo(n){
-  done.add(cur);
-  document.querySelectorAll('.sec').forEach((s,i)=>s.classList.toggle('active',i===n));
-  cur=n;ui();
-  window.scrollTo({top:0,behavior:'smooth'});
-}
+function goTo(n){done.add(cur);document.querySelectorAll('.sec').forEach((s,i)=>s.classList.toggle('active',i===n));cur=n;ui();window.scrollTo({top:0,behavior:'smooth'})}
 function nav(d){const n=cur+d;if(n>=0&&n<SECS.length)goTo(n)}
+function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('show')}
+function closeSidebar(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('show')}
+document.addEventListener('click',function(e){if(e.target.closest('.ni')){closeSidebar()}});
 function start(){
   document.getElementById('welcome').style.display='none';
   document.getElementById('sidebar').style.display='flex';
   document.getElementById('main').style.display='block';
   buildNav();ui();
 }
-function toggleSidebar(){
-  document.getElementById('sidebar').classList.toggle('open');
-  document.getElementById('overlay').classList.toggle('show');
-}
-function closeSidebar(){
-  document.getElementById('sidebar').classList.remove('open');
-  document.getElementById('overlay').classList.remove('show');
-}
-// Close sidebar on nav item click on mobile
-document.addEventListener('click',function(e){
-  if(e.target.closest('.ni')){closeSidebar();}
-});
 </script>
 </body>
 </html>
